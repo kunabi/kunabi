@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LW Runtime Demo</string>
+    <string name="app_description">A demo of LispWorks on Android, allowing evaluation of forms and playing Kunabi</string>
+    <string name="Activity_Kunabi">Kunabi</string>
+    <string name="Activity_Lisp">Lisp Demo</string>
+    <string name="Activity_History">History</string>
+
+    <string name="menu_restart">Restart</string>
+    <string name="menu_undo">Undo</string>
+    <string name="menu_lisp_panel">Lisp Panel</string>
+    <string name="menu_history">History</string>
+    <string name="menu_output">Output</string>
+
+     <string name="menu_kunabiserver">Kunabi Server</string>
+    <string name="menu_javaserver">Java Server</string>
+    <string name="menu_proxyfull">Full Proxy</string>
+    <string name="menu_proxylazy">Lazy Proxy</string>
+
+      <string name="menu_main">Kunabi</string>
+
+    <string name ="computer_plays">Computer plays</string>
+    <string name="initial_text">Initial text </string>
+
+</resources>

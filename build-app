@@ -1,0 +1,2 @@
+cd /home/jaimef/lw-android/lib/7-0-0-0/examples/android && ./run-lw-android.sh -build deliver-android-othello-with-lisp.lisp
+#scp -C ~/StudioProjects/OthelloDemo/app/build/outputs/apk/app-debug.apk jaimef@linbsd.org:/www/linbsd.org/omg.apk                       

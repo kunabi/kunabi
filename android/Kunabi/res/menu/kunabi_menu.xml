@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_restart"
+          android:title="@string/menu_restart"
+          android:showAsAction="ifRoom"
+          />
+   <item android:id="@+id/menu_undo"
+          android:title="@string/menu_undo"
+           android:showAsAction="ifRoom"
+           />
+  <item android:id="@+id/menu_lisp_panel"
+          android:title="@string/menu_lisp_panel"     
+           android:showAsAction="ifRoom"/>
+   <item android:id="@+id/menu_history"
+          android:title="@string/menu_history"       
+           android:showAsAction="ifRoom"/>	<item android:id="@+id/menu_serveritem"
+	    android:title="@string/menu_othelloserver" android:showAsAction="ifRoom">
+	   <menu  xmlns:android="http://schemas.android.com/apk/res/android" >
+  <!-- menu group -->
+    <group android:id="@+id/menu_server" android:title="@string/menu_othelloserver"
+            android:checkableBehavior="single">
+        <item android:id="@+id/menu_javaserver"
+              android:title="@string/menu_javaserver" />
+        <item android:id="@+id/menu_proxyfull"
+              android:title="@string/menu_proxyfull" />
+        <item android:id="@+id/menu_proxylazy"
+              android:title="@string/menu_proxylazy" />
+    </group>
+   </menu>
+   </item>
+</menu>
+

@@ -1,0 +1,1 @@
+echo '(ql:quickload :kunabi)(require :acache "acache-3.0.6.fasl")(db.ac:start-server "~/ac" 2222 :if-does-not-exist :create) (loop (sleep 1))'|allegro

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+<LinearLayout  android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+     
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clearOutput"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/Evaluate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="doEvaluation"
+            android:text="Evaluate the string" />
+
+        <Button
+            android:id="@+id/History"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showHistory"
+            android:text="History" />
+        
+          <Button
+            android:id="@+id/BugForm"
+            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:onClick="showBugFormLogs"
+            android:text="Bug form logs" />
+        
+          <Button
+            android:id="@+id/ClearBug"
+            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:onClick="clearBugFormLogs"
+            android:text="Clear logs" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+  
+
+    <EditText
+        android:id="@+id/input_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:ems="10" >
+
+        <requestFocus android:layout_width="wrap_content" />
+
+    </EditText>
+
+<ScrollView 
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/main_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:editable="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        />
+</ScrollView>
+</LinearLayout>
