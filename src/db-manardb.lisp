@@ -293,7 +293,7 @@ A   (userName :initarg :userName :accessor username)
     obj-list))
 
 (defun ct-get-by-klass-value  (klass value &optional inverse)
-  (format t "~{~A~}" (ct-get-by-klass-value-real (klass value inverse))))
+  (format t "~{~A~}" (ct-get-by-klass-value-real klass value inverse)))
 
 (defun ct-get-by-klass-value-real (klass value &optional inverse)
   (allocate-klass-hash klass)
